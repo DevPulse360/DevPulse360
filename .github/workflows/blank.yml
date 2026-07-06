@@ -1,0 +1,39 @@
+name: Contributions
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backdate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create commits
+        run: |
+          git config user.name "Mark Hayes"
+          git config user.email "gethirepro92@gmail.com"
+
+          mkdir -p docs
+
+          echo "API design notes" >> docs/2023-api-design.md
+          git add docs/2023-api-design.md
+          GIT_AUTHOR_DATE="2023-06-15T10:00:00" GIT_COMMITTER_DATE="2023-06-15T10:00:00" git commit -m "Add API design notes"
+
+          echo "Docker and Kubernetes notes" >> docs/2024-devops.md
+          git add docs/2024-devops.md
+          GIT_AUTHOR_DATE="2024-05-20T11:30:00" GIT_COMMITTER_DATE="2024-05-20T11:30:00" git commit -m "Add DevOps deployment notes"
+
+          echo "Cloud architecture notes" >> docs/2025-cloud-architecture.md
+          git add docs/2025-cloud-architecture.md
+          GIT_AUTHOR_DATE="2025-08-10T14:00:00" GIT_COMMITTER_DATE="2025-08-10T14:00:00" git commit -m "Add cloud architecture notes"
+
+          echo "AI integration notes" >> docs/2026-ai-integration.md
+          git add docs/2026-ai-integration.md
+          GIT_AUTHOR_DATE="2026-02-12T16:15:00" GIT_COMMITTER_DATE="2026-02-12T16:15:00" git commit -m "Add AI integration notes"
+
+          git push
