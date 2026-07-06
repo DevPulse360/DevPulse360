@@ -1,8 +1,8 @@
-# Hi there 👋
+# Hi there 👋 I'm Mark Hayes
 
-### Senior .NET Full Stack Engineer | Cloud Architect | Microservices | AI-Assisted Development
+Senior .NET Full Stack Engineer | Cloud Architect | Microservices | AI-Assisted Development | Python | AI/ML | Cloud Architect
 
-I’m a Senior .NET Full Stack Engineer with 7+ years of experience designing and building scalable enterprise applications using ASP.NET Core, C#, React, Angular, Azure, and AWS.
+I’m a Senior .NET Full Stack Engineer with 7+ years of experience designing and building scalable enterprise applications using ASP.NET Core, C#, React, Angular, Python, Azure, and AWS.
 
 I enjoy solving complex backend problems, designing distributed systems, modernizing legacy applications, and building cloud-native solutions that scale.
 
@@ -25,10 +25,11 @@ I enjoy solving complex backend problems, designing distributed systems, moderni
 ### Languages
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
-![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 ### Frontend
 
@@ -40,12 +41,19 @@ I enjoy solving complex backend problems, designing distributed systems, moderni
 ### Backend
 
 - ASP.NET Core
+- Django
+- FastAPI
 - REST APIs
 - GraphQL
 - gRPC
 - Entity Framework Core
 - SignalR
 - JWT Authentication
+- Microservices
+- Clean Architecture
+- AI/ML APIs
+- LLM Integrations
+- Prompt Engineering
 
 ### Databases
 
@@ -65,6 +73,24 @@ I enjoy solving complex backend problems, designing distributed systems, moderni
 ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions)
 
+### 🤖 AI / Machine Learning
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- AI Agents
+- Prompt Engineering
+- Vector Databases
+- Semantic Search
+- AI Chatbots
+- Model Integration
+  
 ---
 
 ## 🏗️ Areas of Expertise
